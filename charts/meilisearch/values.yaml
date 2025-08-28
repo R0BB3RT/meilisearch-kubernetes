@@ -20,6 +20,8 @@ image:
   repository: getmeili/meilisearch
   # -- Meilisearch image tag
   tag: v1.16.0
+  # -- Meilisearch image digest (overrides tag if set)
+  digest: ""
   # -- Meilisearch image pull policy
   pullPolicy: IfNotPresent
   # -- Secret to authenticate against the docker registry
